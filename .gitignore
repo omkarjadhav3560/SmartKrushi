@@ -1,0 +1,6 @@
+# Ignore local secret config
+config.php
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
