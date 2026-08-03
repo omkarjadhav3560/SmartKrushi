@@ -18,11 +18,8 @@ $systemPrompt = [
 
 array_unshift($userMessages,$systemPrompt);
 
-/* Load API Key from local config.php (ignored by Git) */
-if (file_exists(__DIR__ . '/../config.php')) {
-    require_once(__DIR__ . '/../config.php');
-}
-$apiKey = defined('OPENAI_API_KEY') ? OPENAI_API_KEY : "YOUR_OPENAI_API_KEY_HERE";
+/* YOUR OPENAI API KEY */
+$apiKey = "YOUR_OPENAI_API_KEY_HERE";
 
 /* API Request */
 $payload = [

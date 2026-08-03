@@ -1,4 +1,4 @@
-# Ignore local secret config
+# Ignore local configuration containing private API keys
 config.php
 
 # Ignore OS files
